@@ -1,0 +1,3 @@
+XPath 3 library
+
+Copyright 2004 - 2017 Peter Schonefeld.
