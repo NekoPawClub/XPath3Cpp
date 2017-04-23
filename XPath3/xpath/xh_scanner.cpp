@@ -39,7 +39,7 @@ namespace markup
 		token = (XmlToken)t;
 		eof = token == XmlToken::TT_EOF;
 
-		if (token != XmlToken::TT_ERROR || eof)
+		if (token != XmlToken::TT_ERROR || !eof)
 		{
 			++documentOrder;
 
